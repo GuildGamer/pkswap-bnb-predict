@@ -42,10 +42,24 @@ data.reset_index(drop=True, inplace=True)
 # AutoTS is a Tme Series library for Python
 from autots import AutoTS
 
-model = AutoTS(forecast_length=1, frequency='infer', ensemble='simple')
+model = AutoTS(forecast_length=3, frequency='infer', ensemble='simple')
+
+# Creating the model
 model = model.fit(data, date_col='Date', value_col='Close', id_col=None)
+
+# The name of the best model
+print(f"BEST MODEL {model}")
+
+# prediction anf forecasting
 prediction = model.predict()
 forecast = prediction.forecast
+
+model_results = model.results()
+
+validation = model.results("validation")
+
 print(forecast)
+
+print(validation)
 
 

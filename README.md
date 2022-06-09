@@ -11,6 +11,8 @@
 
 - https://thecleverprogrammer.com/2021/12/27/cryptocurrency-price-prediction-with-machine-learning/
 
+- https://analyticsindiamag.com/hands-on-guide-to-autots-effective-model-selection-for-multiple-time-series/
+
 **MY NOTES:**
 
 1. **Fisher's Equation of exchange: MV = PT => P = MV/T**
