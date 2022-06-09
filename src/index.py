@@ -6,11 +6,9 @@ today = date.today()
 
 # d1 = today.strftime("%Y-%m-%d")
 d1 = datetime.now()
-print(f"DATE 1 {d1}")
 end_date = d1
 d2 = datetime.now() - timedelta(minutes = 59 * 24 * 60)
 # d2 = d2.strftime("%Y-%m-%d")
-print(f"DATE 2 {d2}")
 start_date = d2
 
 data = yf.download('BNB-USD', 
@@ -21,8 +19,9 @@ data = yf.download('BNB-USD',
 data["Date"] = data.index
 data = data[["Date", "Open", "High", "Low", "Close", "Adj Close", "Volume"]]
 data.reset_index(drop=True, inplace=True)
-print(data.tail())
-print(data.shape)
+
+# print(data.tail())
+# print(data.shape)
 
 # visualize the change in bnb prices till today by using a candlestick chart
 
