@@ -1,13 +1,17 @@
-TOOLS:
+**TOOLS:**
+ - AutoTS Python Library 
+ - Pandas
+ - Plotly(Data Visualization)
+ - yfinance(Yahoo Finance api)
 
-REFERENCES:
+**REFERENCES:**
 - https://www.altexsoft.com/blog/business/price-forecasting-machine-learning-based-approaches-applied-to-electricity-flights-hotels-real-estate-and-stock-pricing/ 
 
 - https://changelly.com/blog/cryptocurrency-price-predict/
 
 - https://thecleverprogrammer.com/2021/12/27/cryptocurrency-price-prediction-with-machine-learning/
 
-MY NOTES:
+**MY NOTES:**
 
 1. **Fisher's Equation of exchange: MV = PT => P = MV/T**
         - M is the quantity or Money supply

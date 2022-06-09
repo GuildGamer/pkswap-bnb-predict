@@ -1,4 +1,8 @@
-TOOLS:
+TOOLS: 
+ - AutoTS Python Library 
+ - Pandas
+ - Plotly(Data Visualization)
+ - yfinance(Yahoo Finance api)
 
 REFERENCES:
 - https://www.altexsoft.com/blog/business/price-forecasting-machine-learning-based-approaches-applied-to-electricity-flights-hotels-real-estate-and-stock-pricing/ 
